@@ -1,2 +1,2 @@
 git+https://github.com/gluster/glusto-tests.git#subdirectory=glustolibs-gluster
-git+https://github.com/gluster/glusto-tests.git#subdirectory=glustolibs-io
+#git+https://github.com/gluster/glusto-tests.git#subdirectory=glustolibs-io
