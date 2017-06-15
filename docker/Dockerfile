@@ -10,7 +10,7 @@ RUN cd /glusto-tests/glustolibs-misc; python setup.py install
 #RUN dnf install -y gcc
 #RUN pip install --upgrade git+git://github.com/gluster/gdeploy.git
 RUN dnf install -y wget
-RUN wget -q https://copr-be.cloud.fedoraproject.org/results/sac/gdeploy/fedora-24-x86_64/00549451-gdeploy/gdeploy-2.0.2-7.noarch.rpm
+RUN wget -q https://copr-be.cloud.fedoraproject.org/results/sac/gdeploy/fedora-25-x86_64/00549451-gdeploy/gdeploy-2.0.2-7.noarch.rpm
 RUN dnf install -y gdeploy-*
 
 
