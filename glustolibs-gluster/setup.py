@@ -19,7 +19,7 @@
 from setuptools import setup, find_packages
 from distutils import dir_util
 
-version = '0.21'
+version = '0.22'
 name = 'glustolibs-gluster'
 
 setup(
