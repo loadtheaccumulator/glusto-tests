@@ -60,6 +60,14 @@ glustolibs.gluster.heal_ops module
     :undoc-members:
     :show-inheritance:
 
+glustolibs.gluster.layout module
+-----------------------------------
+
+.. automodule:: glustolibs.gluster.layout
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    
 glustolibs.gluster.lib_utils module
 -----------------------------------
 
