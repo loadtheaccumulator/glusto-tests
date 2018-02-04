@@ -51,4 +51,4 @@ setup(
 try:
     dir_util.copy_tree('./gdeploy_configs', '/usr/share/glustolibs/gdeploy_configs')
 except:
-    pass
+    print "Skipping ./gdeploy_configs copy"
