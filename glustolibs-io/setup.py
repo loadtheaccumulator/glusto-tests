@@ -47,4 +47,8 @@ setup(
     dependency_links=['http://github.com/loadtheaccumulator/glusto/tarball/master#egg=glusto'],
     namespace_packages = ['glustolibs']
 )
-dir_util.copy_tree('./shared_files', '/usr/share/glustolibs/io')
+
+try:
+    dir_util.copy_tree('./shared_files', '/usr/share/glustolibs/io')
+except:
+    pass
