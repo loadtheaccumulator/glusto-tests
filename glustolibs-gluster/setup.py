@@ -48,4 +48,7 @@ setup(
     namespace_packages = ['glustolibs']
 )
 
-dir_util.copy_tree('./gdeploy_configs', '/usr/local/share/glustolibs/gdeploy_configs')
+try:
+    dir_util.copy_tree('./gdeploy_configs', '/usr/local/share/glustolibs/gdeploy_configs')
+except:
+    pass
