@@ -51,4 +51,4 @@ setup(
 try:
     dir_util.copy_tree('./shared_files', '/usr/share/glustolibs/io')
 except:
-    pass
+    print "Skipping ./shared_files copy"
